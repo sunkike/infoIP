@@ -1,0 +1,27 @@
+#externalIP {
+	background: #E7E6E6;
+	position: fixed;
+	color: black;
+	padding: 0px;
+	font-family: 'Arial', Helvetica, sans-serif;
+	font-size: 12px;
+	margin-left: 10px;
+	margin-bottom: 18px;
+	vertical-align: baseline;
+	bottom: 0;
+	line-height: 1;
+	display: inline;
+}
+
+#flag24 {
+	display: inline;
+	height: 17px;
+	margin-left: 3px;
+	padding-bottom: 2px;
+	width: 17px;
+}
+
+#ipdata {
+	display: inline;
+	vertical-align: super;
+}
