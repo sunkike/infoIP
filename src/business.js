@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$.ajax({ 
-  		url: 'http://freegeoip.net/json/', 
+  		url: 'https://freegeoip.net/json/', 
   		type: 'GET', 
   	})
   		.done(function (data) {
@@ -27,7 +27,7 @@ $(document).ready(function() {
 // get Flag 
 function getFlag(webIP,callback) {
 	var flag = "";
-	var url = 'http://freegeoip.net/json/' + webIP;
+	var url = 'https://freegeoip.net/json/' + webIP;
 	$.ajax({ 
   		url: url, 
   		type: 'GET', 

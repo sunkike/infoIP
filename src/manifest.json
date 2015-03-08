@@ -1,15 +1,13 @@
 {
 "update_url": "https://clients2.google.com/service/update2/crx",
-
+	"manifest_version": 2,
 	"name": "Info IP",
 	"short_name": "info_ip",
-	"version": "1.0.3",
-	"manifest_version": 2,
+	"version": "1.0.4.1",
+	
 	"minimum_chrome_version": "18",
 	"description": "Information about your public IP",
 	"icons": {
-		"16": "/images/icon16.png", 
-		"48": "/images/icon48.png", 
 		"128": "/images/icon128.png"
 	},
 	"background": {
